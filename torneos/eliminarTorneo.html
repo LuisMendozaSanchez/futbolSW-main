@@ -1,0 +1,28 @@
+<html lang="es">
+<head>
+	<title>Eliminar Torneo</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../images/favicon.png" />
+    <link href="../css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../css/styles-torneos.css"> 
+</head>
+
+<body>
+
+	<div>
+		<form method="POST" name='eliminarTorneo'>
+        <center><h1>Eliminar Torneo</h1></center>
+			<div>
+				<label>ID del Torneo</label>
+				<input type="text" name="idTorneo" id="idTorneo" placeholder="Escribe el id del torneo" required>
+			</div>
+			
+			
+			<input class="eliminar" type="submit" name="sub" value="Eliminar"/>
+            <input class="volver" type="button" value="volver atrás" name="volver atrás2"/>
+		</form>		
+
+	</div>
+	<script src="/torneos/eliminarTorneo.js"></script>
+</body>
+</html>

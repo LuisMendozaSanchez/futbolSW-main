@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Actualizar Torneo</title>
+	<meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../images/favicon.png" />
+    <link href="../css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../css/styles-torneos.css"> 
+</head>
+
+<body>
+
+	<div>
+		<form method="POST" name='actualizarTorneo'>
+            <center><h1>Actualizar Torneo</h1></center>
+			<div>
+				<label>Id del torneo</label>
+				<input type="text" name="idTorneo" id="idTorneo" placeholder="Escribe el id del torneo" required>
+			</div>
+			<div>
+				<label>Tipo de torneo</label>
+				<input type="text" name="tipoTorneo" id="tipoTorneo" placeholder="Escribe el tipo del torneo" required>
+			</div>
+			<div>
+				<label>Nombre del torneo</label>
+				<input type="text" name="nmTorneo" id="nmTorneo" placeholder="Escribe el nombre del torneo" required>
+			
+			
+			<input class="actualizar" type="submit" name="sub" value="Actualizar"/>
+            <input class="volver" type="button" value="volver atrás" name="volver atrás2" />
+		</form>		
+	</div>
+	<script src="/torneos/editarTorneo.js"></script>
+</body>
+</html>
